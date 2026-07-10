@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0d18" />
+    <title>VEX | Enforce AI Trades. Prove Every Action.</title>
+    <meta
+      name="description"
+      content="VEX is a local-first AI trading runtime. Every action clears your rules before it signs. $VEX is live on Robinhood Chain via Virtuals."
+    />
+    <link rel="icon" href="/public/brand/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <nav id="nav" aria-label="Main">
+      <div class="nav-side">
+        <a href="#faq">Docs</a>
+        <a href="https://github.com/Vex-Foundation/Vex" target="_blank" rel="noopener"
+          >GitHub <span aria-hidden="true">↗</span></a
+        >
+      </div>
+      <a class="nav-mark" href="#top" aria-label="VEX, back to top">
+        <svg viewBox="0 0 160 40" width="96" height="32" aria-hidden="true">
+          <text
+            x="0"
+            y="30"
+            font-family="Georgia, 'Times New Roman', serif"
+            font-size="36"
+            letter-spacing="0.08em"
+            fill="currentColor"
+          >
+            VEX
+          </text>
+        </svg>
+      </a>
+      <div class="nav-side nav-right">
+        <a href="#token">$VEX</a>
+        <a href="https://x.com/ProjectVEXai" target="_blank" rel="noopener"
+          >X <span aria-hidden="true">↗</span></a
+        >
+        <a class="nav-dl" href="#download">Download</a>
+      </div>
+    </nav>
+
+    <main id="top">
+      <header class="hero">
+        <div class="hero-film" aria-hidden="true"></div>
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="hero-in">
+          <p class="hero-status" data-hero="1">
+            <img class="hs-logo" src="/public/brand/mark.svg" alt="$VEX" />
+            $VEX live · Robinhood Chain · via Virtuals
+          </p>
+          <div class="hero-seal" data-hero="2">
+            <svg viewBox="0 0 200 48" width="200" height="72" aria-label="VEX">
+              <text
+                x="100"
+                y="38"
+                text-anchor="middle"
+                font-family="Georgia, 'Times New Roman', serif"
+                font-size="48"
+                letter-spacing="0.12em"
+                fill="currentColor"
+              >
+                VEX
+              </text>
+            </svg>
+          </div>
+          <h1 class="hero-h" data-hero="3">
+            <span class="hh-1">Let AI trade.</span>
+            <span class="hh-2">It still answers to you.</span>
+          </h1>
+          <p class="hero-sub" data-hero="4">
+            A trading runtime that lives on your machine. Every action clears your rules before it
+            signs. Then it goes on the record.
+          </p>
+          <div class="hero-cta" data-hero="5">
+            <a class="btn btn-white" href="#download">Download for macOS / Linux</a>
+            <a
+              class="btn btn-line"
+              href="https://app.virtuals.io/virtuals/96200"
+              target="_blank"
+              rel="noopener"
+              >Buy $VEX <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <p class="hero-foot" data-hero="6">
+            <a href="https://github.com/Vex-Foundation/Vex" target="_blank" rel="noopener"
+              >Free and open source on GitHub <span aria-hidden="true">↗</span></a
+            >
+            <span class="sep" aria-hidden="true">·</span>
+            <a href="https://app.virtuals.io/virtuals/96200" target="_blank" rel="noopener"
+              >Launched via Virtuals</a
+            >
+            <span class="sep" aria-hidden="true">·</span>
+            <a
+              href="https://robinhoodchain.blockscout.com/token/0x98555aaaf50d90628c4d56409fc8a0d02c1bb642"
+              target="_blank"
+              rel="noopener"
+              >Robinhood Chain</a
+            >
+          </p>
+        </div>
+      </header>
+
+      <div class="wire" role="region" aria-label="Live $VEX market data">
+        <div class="wire-in">
+          <a
+            class="wire-price"
+            href="https://dexscreener.com/robinhood/0x817f16f5d8da83d1b089b082c0172af3923618da"
+            target="_blank"
+            rel="noopener"
+            aria-label="Live $VEX price on DexScreener"
+          >
+            <span class="wire-dot" aria-hidden="true"></span>
+            $VEX
+            <b data-price>—</b>
+          </a>
+          <span class="wire-sep" aria-hidden="true"></span>
+          <span class="wire-stat">FDV <span data-fdv>—</span></span>
+          <span class="wire-stat">Liq <span data-liq>—</span></span>
+          <span class="wire-sep" aria-hidden="true"></span>
+          <button type="button" class="wire-ca" data-copy aria-label="Copy contract address">
+            CA <code>0x9855…b642</code> <u data-copy-label>copy</u>
+          </button>
+          <span class="wire-links">
+            <a href="https://app.virtuals.io/virtuals/96200" target="_blank" rel="noopener"
+              >Buy <span aria-hidden="true">↗</span></a
+            >
+            <a
+              href="https://dexscreener.com/robinhood/0x817f16f5d8da83d1b089b082c0172af3923618da"
+              target="_blank"
+              rel="noopener"
+              >Chart <span aria-hidden="true">↗</span></a
+            >
+            <a
+              href="https://robinhoodchain.blockscout.com/token/0x98555aaaf50d90628c4d56409fc8a0d02c1bb642"
+              target="_blank"
+              rel="noopener"
+              >Explorer <span aria-hidden="true">↗</span></a
+            >
+          </span>
+        </div>
+      </div>
+
+      <section class="sec charter" id="charter">
+        <p class="label" data-reveal>What VEX is</p>
+        <p class="statement" data-reveal>
+          Not a chatbot. A desktop runtime that runs <em>missions</em> against real markets, under
+          rules the model <em>cannot override</em>.
+        </p>
+        <div class="articles">
+          <article class="art" data-reveal>
+            <p class="art-n">Article I <b>Enforce</b></p>
+            <h2 class="art-h">Nothing signs outside <em>your limits.</em></h2>
+            <p class="art-p">
+              Seven checks run before every trade: killswitch, blocked coins, daily loss, losing
+              streak, open positions, trade count, size cap. The first fail blocks the trade, and
+              the block itself is recorded.
+            </p>
+          </article>
+          <article class="art" data-reveal>
+            <p class="art-n">Article II <b>Prove</b></p>
+            <h2 class="art-h">Every action lands on a <em>numbered record.</em></h2>
+            <p class="art-p">
+              Wins, losses, and blocked attempts become one anchored audit log anyone can verify. No
+              screenshots, no cherry-picked highlight reel, and your strategy stays private.
+            </p>
+          </article>
+          <article class="art" data-reveal>
+            <p class="art-n">Article III <b>Local</b></p>
+            <h2 class="art-h">Your keys never leave <em>your machine.</em></h2>
+            <p class="art-p">
+              Runtime, memory, audit log, and custody all live on your hardware. No cloud relay, no
+              custodial server. The code is open on GitHub.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="sec sec-dark modes" id="modes">
+        <p class="label" data-reveal>How it runs</p>
+        <h2 class="head" data-reveal>Four ways to run it.</h2>
+        <p class="body" data-reveal>
+          Every session locks two switches: <b>agent or mission</b>, and
+          <b>restricted or full autonomous</b>. Permission is set per session and cannot widen
+          mid-run.
+        </p>
+        <div class="matrix" data-reveal>
+          <div class="mx-corner" aria-hidden="true"></div>
+          <p class="mx-col">Restricted</p>
+          <p class="mx-col">Full autonomous</p>
+          <p class="mx-row">Agent <span>answers and acts once</span></p>
+          <div class="mx-cell">
+            <p class="mx-tag">Agent · Restricted</p>
+            <p>
+              Ask, approve, done. Anything that would move money pauses for your one-tap approval.
+              The default.
+            </p>
+          </div>
+          <div class="mx-cell">
+            <p class="mx-tag">Agent · Full</p>
+            <p>Ask and it acts. Same one-shot task, no pause. You trade the tap for speed.</p>
+          </div>
+          <p class="mx-row">Mission <span>loops toward a goal</span></p>
+          <div class="mx-cell">
+            <p class="mx-tag">Mission · Restricted</p>
+            <p>
+              Autonomy on a leash. It plans and researches freely; the moment it wants to sign, it
+              parks and waits for you.
+            </p>
+          </div>
+          <div class="mx-cell is-full">
+            <p class="mx-tag">Mission · Full</p>
+            <p>
+              The unattended loop. Acts, sleeps, wakes, acts again, for days. No approvals, no
+              babysitting; your hard limits still gate every trade.
+            </p>
+          </div>
+        </div>
+        <div class="memory" data-reveal>
+          <p class="label">Biological memory</p>
+          <p class="mem-h">It remembers the <em>lessons,</em> not the balances.</p>
+          <p class="body">
+            Two memory tiers, embedded and stored locally. Lessons reinforce with use and decay with
+            time, curated by a judge, so it stops repeating failed approaches. Secrets are redacted
+            before anything is written.
+          </p>
+        </div>
+      </section>
+
+      <section class="footage" id="runtime" aria-label="Recorded from the live app">
+        <div class="footage-head">
+          <p class="label" data-reveal>Recorded from the live app</p>
+          <p class="footage-line" data-reveal>
+            Missions, approvals, memory, logs. <em>Nothing here is a mockup.</em>
+          </p>
+        </div>
+        <div class="footage-stage" aria-hidden="true">
+          <div class="footage-ui">
+            <div class="fu-panel">
+              <p class="fu-title">Missions</p>
+              <div class="fu-row"><span>ETH momentum</span><strong class="fu-badge">LIVE</strong></div>
+              <div class="fu-row"><span>Risk sweep</span><strong class="fu-badge warn">HOLD</strong></div>
+              <div class="fu-row"><span>Mem research</span><strong>IDLE</strong></div>
+            </div>
+            <div class="fu-panel fu-center">
+              <p class="fu-title">Active mission</p>
+              <p class="fu-mission">Scale into <em>ETH</em> under daily loss cap.</p>
+              <div class="fu-bar"><i></i></div>
+              <div class="fu-log" style="margin-top: 18px">
+                <span>→ policy gate: size cap OK</span>
+                <span>→ intent prepared · awaiting sign</span>
+                <span>→ audit #1842 anchored</span>
+                <span>→ memory: avoid chase entries</span>
+              </div>
+            </div>
+            <div class="fu-panel">
+              <p class="fu-title">Limits</p>
+              <div class="fu-row"><span>Killswitch</span><strong>OFF</strong></div>
+              <div class="fu-row"><span>Daily loss</span><strong>−1.2%</strong></div>
+              <div class="fu-row"><span>Open pos</span><strong>2 / 5</strong></div>
+              <div class="fu-row"><span>Trade count</span><strong>7 / 20</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec install" id="download">
+        <p class="label" data-reveal>Download</p>
+        <h2 class="head" data-reveal>Put it on your machine.</h2>
+        <p class="body" data-reveal>
+          Free and open source. macOS and Linux today, Windows soon. Your keys stay local and
+          execution never touches a cloud;
+          <a href="https://github.com/Vex-Foundation/Vex" target="_blank" rel="noopener"
+            >read the code <span aria-hidden="true">↗</span></a
+          >
+          before you trust it.
+        </p>
+        <div class="ledger" data-reveal>
+          <a
+            class="ledger-row"
+            href="https://github.com/Vex-Foundation/Vex/releases/latest"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="lg-os">macOS</span>
+            <span class="lg-variant">Apple Silicon</span>
+            <span class="lg-format">.dmg</span>
+            <span class="lg-act">Download <span aria-hidden="true">↓</span></span>
+          </a>
+          <a
+            class="ledger-row"
+            href="https://github.com/Vex-Foundation/Vex/releases/latest"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="lg-os">macOS</span>
+            <span class="lg-variant">Intel</span>
+            <span class="lg-format">.dmg</span>
+            <span class="lg-act">Download <span aria-hidden="true">↓</span></span>
+          </a>
+          <a
+            class="ledger-row"
+            href="https://github.com/Vex-Foundation/Vex/releases/latest"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="lg-os">Linux</span>
+            <span class="lg-variant">Universal</span>
+            <span class="lg-format">.AppImage</span>
+            <span class="lg-act">Download <span aria-hidden="true">↓</span></span>
+          </a>
+          <a
+            class="ledger-row"
+            href="https://github.com/Vex-Foundation/Vex/releases/latest"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="lg-os">Linux</span>
+            <span class="lg-variant">Debian / Ubuntu</span>
+            <span class="lg-format">.deb</span>
+            <span class="lg-act">Download <span aria-hidden="true">↓</span></span>
+          </a>
+          <a
+            class="ledger-row is-soon"
+            href="https://x.com/ProjectVEXai"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="lg-os">Windows</span>
+            <span class="lg-variant">Coming soon</span>
+            <span class="lg-format" aria-hidden="true"></span>
+            <span class="lg-act">Get notified <span aria-hidden="true">↗</span></span>
+          </a>
+          <p class="ledger-note">
+            Latest release · macOS 12+ · Linux x86_64 ·
+            <a
+              href="https://github.com/Vex-Foundation/Vex/releases/latest"
+              target="_blank"
+              rel="noopener"
+              >all builds and checksums <span aria-hidden="true">↗</span></a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="sec sec-dark token" id="token">
+        <p class="label" data-reveal>$VEX · Robinhood Chain · via Virtuals</p>
+        <h2 class="head" data-reveal>
+          The app is the product. <em>The token powers the network.</em>
+        </h2>
+        <p class="body" data-reveal>
+          Trading fees buy back $VEX, and verified track records are becoming a followable network:
+          humans and agents copying strategies inside their own limits.
+        </p>
+        <a
+          class="quote"
+          href="https://dexscreener.com/robinhood/0x817f16f5d8da83d1b089b082c0172af3923618da"
+          target="_blank"
+          rel="noopener"
+          aria-label="Live $VEX price on DexScreener"
+          data-reveal
+        >
+          <span class="quote-num" data-price>—</span>
+          <span class="quote-meta">
+            <span class="quote-live"><i aria-hidden="true"></i> live</span>
+            <span>FDV <span data-fdv>—</span></span>
+            <span>Liq <span data-liq>—</span></span>
+            <span>DexScreener <span aria-hidden="true">↗</span></span>
+          </span>
+        </a>
+        <div class="ca" data-reveal>
+          <span class="ca-label">Contract</span>
+          <code>0x98555aaaf50d90628c4d56409fc8a0d02c1bb642</code>
+          <button type="button" class="ca-copy" data-copy aria-label="Copy contract address">
+            copy
+          </button>
+        </div>
+        <div class="token-cta" data-reveal>
+          <a
+            class="btn btn-white"
+            href="https://app.virtuals.io/virtuals/96200"
+            target="_blank"
+            rel="noopener"
+            >Buy on Virtuals <span aria-hidden="true">↗</span></a
+          >
+          <a
+            class="btn btn-line"
+            href="https://robinhoodchain.blockscout.com/token/0x98555aaaf50d90628c4d56409fc8a0d02c1bb642"
+            target="_blank"
+            rel="noopener"
+            >Explorer <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <p class="legal" data-reveal>
+          Chain ID 4663 · gas ETH · explorer robinhoodchain.blockscout.com<br />
+          $VEX is a utility token. Nothing on this page is financial advice or an offer of
+          securities. Only trust the contract address posted by @ProjectVEXai.
+        </p>
+      </section>
+
+      <section class="sec faq" id="faq">
+        <p class="label" data-reveal>Answers</p>
+        <h2 class="head" data-reveal>The questions that decide trust.</h2>
+        <div class="faq-list" data-reveal>
+          <details class="faq-item" name="faq">
+            <summary>
+              <span class="faq-n">01</span>
+              <span class="faq-q">Can VEX move funds without me?</span>
+              <span class="faq-x" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-a">
+              No. The model can only propose. Every state-changing action is prepared as an intent,
+              checked against your policy, and executed only by the runtime. In approval mode,
+              nothing signs until you say yes.
+            </p>
+          </details>
+          <details class="faq-item" name="faq">
+            <summary>
+              <span class="faq-n">02</span>
+              <span class="faq-q">Where do my private keys live?</span>
+              <span class="faq-x" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-a">
+              On your machine, never transmitted to VEX. Keys are held by the local runtime and used
+              only at the signing boundary, after an action clears the policy gate. No cloud relay,
+              no custodial server, no remote key escrow.
+            </p>
+          </details>
+          <details class="faq-item" name="faq">
+            <summary>
+              <span class="faq-n">03</span>
+              <span class="faq-q">Is any of this cloud-dependent?</span>
+              <span class="faq-x" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-a">
+              No. VEX is a native desktop app. Runtime, memory, audit logs, and custody all live
+              locally. The only outbound calls are the protocol and model endpoints you explicitly
+              enable; your strategy and keys are never sent to us.
+            </p>
+          </details>
+          <details class="faq-item" name="faq">
+            <summary>
+              <span class="faq-n">04</span>
+              <span class="faq-q">Where do I buy $VEX?</span>
+              <span class="faq-x" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-a">
+              Through Virtuals Protocol on Robinhood Chain: the Buy button on this page goes to the
+              official listing. Verify the contract address against the one posted by @ProjectVEXai
+              before you trade. If a link did not come from this site or that account, treat it as
+              fake.
+            </p>
+          </details>
+          <details class="faq-item" name="faq">
+            <summary>
+              <span class="faq-n">05</span>
+              <span class="faq-q">What is the token for?</span>
+              <span class="faq-x" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-a">
+              $VEX powers the network around the runtime: trading fees buy back $VEX, and verified
+              track records are becoming a followable network: humans and agents copying strategies
+              inside their own limits. The app itself stays the product.
+            </p>
+          </details>
+        </div>
+        <p class="faq-more" data-reveal>More in the <a href="#faq">docs</a>.</p>
+      </section>
+
+      <section class="close" id="join">
+        <div class="close-in">
+          <h2 data-reveal>
+            Your AI. Your limits.<br /><em>Your receipts.</em>
+          </h2>
+          <p data-reveal>
+            The app is out. The token is live. The longest track records will belong to whoever
+            starts first.
+          </p>
+          <div class="close-cta" data-reveal>
+            <a class="btn btn-white" href="#download">Download VEX</a>
+            <a
+              class="btn btn-line"
+              href="https://x.com/ProjectVEXai"
+              target="_blank"
+              rel="noopener"
+              >Follow @ProjectVEXai <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 VEX // MODELS REASON. RUNTIMES ENFORCE. CHAINS PROVE.</p>
+      <div class="f-links">
+        <a href="#download">Download</a>
+        <a href="#token">$VEX</a>
+        <a href="#faq">Docs</a>
+        <a href="https://github.com/Vex-Foundation/Vex" target="_blank" rel="noopener"
+          >GitHub <span aria-hidden="true">↗</span></a
+        >
+        <a href="https://app.virtuals.io/virtuals/96200" target="_blank" rel="noopener"
+          >Virtuals <span aria-hidden="true">↗</span></a
+        >
+        <a
+          href="https://robinhoodchain.blockscout.com/token/0x98555aaaf50d90628c4d56409fc8a0d02c1bb642"
+          target="_blank"
+          rel="noopener"
+          >Explorer <span aria-hidden="true">↗</span></a
+        >
+        <a href="https://x.com/ProjectVEXai" target="_blank" rel="noopener"
+          >X <span aria-hidden="true">↗</span></a
+        >
+      </div>
+      <p class="f-legal">Not financial advice. Verify the CA via @ProjectVEXai.</p>
+    </footer>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

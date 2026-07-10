@@ -1,0 +1,9 @@
+{
+  "name": "vex-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx --yes serve . -p 5173",
+    "start": "npx --yes serve . -p 5173"
+  }
+}
